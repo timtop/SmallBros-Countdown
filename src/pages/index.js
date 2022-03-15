@@ -2,6 +2,7 @@ import * as React from "react";
 import "../styles/style.scss";
 import Timer from "../components/Timer";
 import bro from "../images/isolatedBro.png";
+import brologo from "../images/smalie.png";
 
 // markup
 const IndexPage = () => {
@@ -10,6 +11,8 @@ const IndexPage = () => {
       {/* <p>This is the starter page</p> */}
       <div className="container">
         <div className="counttime">
+          <img src={brologo} alt="Small Bro" className="smalllogo" />
+
           <div className="text-bold-w ">
             <Timer />
           </div>

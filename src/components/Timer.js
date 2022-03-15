@@ -5,7 +5,7 @@ const Timer = () => {
   return (
     <>
       <DateCountdown
-        dateTo="March 21, 2022 00:00:00 GMT+03:00"
+        dateTo="March 21, 2022 00:00:00 EST"
         callback={() => alert("It's Mint time")}
       />
     </>
