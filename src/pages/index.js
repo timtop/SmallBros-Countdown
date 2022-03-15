@@ -16,6 +16,9 @@ const IndexPage = () => {
         </div>
         <img src={bro} alt="Small Bro" className="bro" />
       </div>
+      <div className="creator">
+        Yours Broly JOSHOOOOOOOOOOOOR | SmallBro#1371
+      </div>
     </div>
   );
 };
