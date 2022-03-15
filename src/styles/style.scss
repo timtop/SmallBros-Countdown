@@ -34,6 +34,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  width: 80%;
 }
 
 .creator {
@@ -46,6 +47,34 @@
 }
 
 .smalllogo {
-  width: 50%;
+  width: 30%;
+}
+
+.text {
   margin-bottom: 60px;
+}
+.launch {
+  font-family: "Poppins", sans-serif;
+  color: 333d47;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+@media (max-width: 425px) {
+  .smalllogo {
+    width: 50%;
+  }
+  .text-bold-w {
+    font-size: 30px;
+  }
+  .bro {
+    left: 30%;
+  }
+  .creator {
+    font-size: 12px;
+  }
+  .counttime {
+    top: 40%;
+  }
 }

@@ -11,8 +11,10 @@ const IndexPage = () => {
       {/* <p>This is the starter page</p> */}
       <div className="container">
         <div className="counttime">
-          <img src={brologo} alt="Small Bro" className="smalllogo" />
-
+          <div className="text">
+            <img src={brologo} alt="Small Bro" className="smalllogo" />
+            <p className="launch">Launch date countdown</p>
+          </div>
           <div className="text-bold-w ">
             <Timer />
           </div>
@@ -20,7 +22,7 @@ const IndexPage = () => {
         <img src={bro} alt="Small Bro" className="bro" />
       </div>
       <div className="creator">
-        Yours Broly JOSHOOOOOOOOOOOOR | SmallBro#1371
+        By yours Broly JOSHOOOOOOOOOOOOR | SmallBro#1371
       </div>
     </div>
   );
