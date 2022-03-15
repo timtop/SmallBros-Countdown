@@ -13,7 +13,7 @@ const IndexPage = () => {
         <div className="counttime">
           <div className="text">
             <img src={brologo} alt="Small Bro" className="smalllogo" />
-            <p className="launch">Launch date countdown</p>
+            <p className="launch">Launch Day Countdown</p>
           </div>
           <div className="text-bold-w ">
             <Timer />
