@@ -1,0 +1,37 @@
+@import "./reset.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800;900&display=swap");
+
+.container {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1400px;
+}
+
+.wrapper {
+  background: url("../images/Brobg.png") no-repeat left top;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.text-bold-w {
+  font-family: "Poppins", sans-serif;
+  color: 333d47;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.bro {
+  width: 150px;
+  position: absolute;
+  top: calc(100vh - 209.75px);
+  left: 45%;
+}
+
+.counttime {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

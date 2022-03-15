@@ -1,0 +1,25 @@
+{
+  "name": "smallbroslaunchcountdown",
+  "version": "1.0.0",
+  "private": true,
+  "description": "smallbroslaunchcountdown",
+  "author": "Timothy Ayegbede",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.9.3",
+    "gatsby-plugin-sass": "^5.9.0",
+    "react": "^17.0.1",
+    "react-date-countdown-timer": "^1.1.0",
+    "react-dom": "^17.0.1",
+    "sass": "^1.49.9"
+  }
+}
