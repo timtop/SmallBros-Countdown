@@ -3,7 +3,7 @@ import React from "react";
 import Countdown from "react-countdown";
 
 const Timer = () => {
-  const Completionist = () => <span>It's Mint time!</span>;
+  const Completionist = () => <span>It's Mint Day!</span>;
 
   return (
     <>
@@ -11,7 +11,7 @@ const Timer = () => {
         dateTo="March 21, 2022 00:00:00 EST"
         callback={() => alert("It's Mint time")}
       /> */}
-      <Countdown date={Date.now() + 5000}>
+      <Countdown date={"2022-03-21T00:00:00"}>
         <Completionist />
       </Countdown>
     </>
